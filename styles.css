@@ -1,0 +1,70 @@
+.nns-chart {
+  --nns-font-size: 18px;
+  --nns-bars: 4;
+  --nns-columns: 1;
+  --nns-fg: var(--text-normal, #111);
+  --nns-muted: var(--text-muted, #555);
+  --nns-border: var(--background-modifier-border, #999);
+  --nns-section-bg: transparent;
+  --nns-error: #b00020;
+  font-size: var(--nns-font-size);
+  color: var(--nns-fg);
+  line-height: 1.4;
+}
+.nns-header { margin-bottom: 0.75em; }
+.nns-title { margin: 0; font-size: 1.6em; }
+.nns-meta { display: flex; flex-wrap: wrap; gap: 0.25em 1.5em; margin: 0.25em 0 0; color: var(--nns-muted); }
+.nns-meta-item { display: flex; gap: 0.4em; }
+.nns-meta dt { font-weight: 600; }
+.nns-meta dt::after { content: ":"; }
+.nns-meta dd { margin: 0; }
+.nns-errors { margin: 0 0 0.75em; padding-left: 1.2em; }
+.nns-error { color: var(--nns-error); font-size: 0.85em; }
+.nns-body { column-count: var(--nns-columns); column-gap: 2em; }
+.nns-section {
+  display: grid;
+  grid-template-columns: 5em 1fr;
+  align-items: start;
+  margin-bottom: 0.75em;
+  break-inside: avoid;
+  background: var(--nns-section-bg);
+}
+.nns-label { font-weight: 700; text-transform: uppercase; font-size: 0.8em; letter-spacing: 0.04em; padding-top: 0.35em; }
+.nns-repeat { margin-left: 0.4em; font-weight: 400; }
+.nns-bars { display: grid; grid-template-columns: repeat(var(--nns-bars), minmax(0, 1fr)); }
+.nns-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  gap: 0.4em;
+  padding: 0.25em 0.4em;
+  border-left: 1px solid var(--nns-border);
+  border-bottom: 1px solid var(--nns-border);
+  min-height: 1.6em;
+  break-inside: avoid;
+}
+.nns-bar:nth-child(var(--nns-bars) n + 1) { border-left-width: 2px; }
+.nns-bar-error { color: var(--nns-error); font-family: var(--font-monospace, monospace); font-size: 0.8em; }
+.nns-chord { display: inline-flex; flex-direction: column; align-items: center; font-weight: 600; white-space: nowrap; }
+.nns-ext { font-size: 0.65em; vertical-align: super; line-height: 0; font-weight: 600; }
+.nns-letter { font-size: 0.55em; font-weight: 400; color: var(--nns-muted); }
+.nns-section-chorus .nns-label { text-decoration: underline; }
+.nns-section-bridge .nns-label { font-style: italic; }
+.nns-section-intro .nns-label, .nns-section-outro .nns-label { color: var(--nns-muted); }
+
+.nns-print-modal .nns-actions { margin-bottom: 1em; }
+
+@media print {
+  .nns-chart {
+    --nns-fg: #000;
+    --nns-muted: #444;
+    --nns-border: #666;
+    --nns-error: #000;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    filter: grayscale(1);
+  }
+  .nns-header, .nns-section, .nns-bar { break-inside: avoid; }
+  .nns-title { break-after: avoid; }
+  .nns-actions { display: none; }
+}

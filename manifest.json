@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-nns",
+  "name": "NNS Charts",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Render Nashville Number System charts written in ChordText, inline and as PDF.",
+  "author": "monsieurcharriere",
+  "isDesktopOnly": false
+}
