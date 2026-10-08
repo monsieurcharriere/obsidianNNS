@@ -1,0 +1,40 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`html snapshots > amazing grace 1`] = `
+"<article class="nns-chart" style="--nns-bars:4;--nns-columns:1;--nns-font-size:18px">
+<header class="nns-header">
+<h1 class="nns-title">Amazing Grace</h1>
+<dl class="nns-meta"><div class="nns-meta-item nns-meta-artist"><dt>Artist</dt><dd>Traditional</dd></div><div class="nns-meta-item nns-meta-key"><dt>Key</dt><dd>G</dd></div><div class="nns-meta-item nns-meta-tempo"><dt>Tempo</dt><dd>80</dd></div><div class="nns-meta-item nns-meta-time"><dt>Time</dt><dd>3/4</dd></div></dl>
+</header>
+<div class="nns-body">
+<section class="nns-section nns-section-intro"><div class="nns-label">Intro</div><div class="nns-bars"><div class="nns-bar"><span class="nns-chord">1</span></div><div class="nns-bar"><span class="nns-chord">1</span></div><div class="nns-bar"><span class="nns-chord">4</span></div><div class="nns-bar"><span class="nns-chord">1</span></div></div></section>
+<section class="nns-section nns-section-verse"><div class="nns-label">Verse 1<span class="nns-repeat">×2</span></div><div class="nns-bars"><div class="nns-bar"><span class="nns-chord">1</span></div><div class="nns-bar"><span class="nns-chord">1</span></div><div class="nns-bar"><span class="nns-chord">4</span></div><div class="nns-bar"><span class="nns-chord">1</span></div><div class="nns-bar"><span class="nns-chord">1</span></div><div class="nns-bar"><span class="nns-chord">6<sup class="nns-ext">-</sup></span></div><div class="nns-bar"><span class="nns-chord">5</span></div><div class="nns-bar"><span class="nns-chord">1</span></div></div></section>
+<section class="nns-section nns-section-chorus"><div class="nns-label">Chorus</div><div class="nns-bars"><div class="nns-bar nns-bar-split"><span class="nns-chord">1</span><span class="nns-chord">4</span></div><div class="nns-bar"><span class="nns-chord">1<span class="nns-bass">/3</span></span></div><div class="nns-bar"><span class="nns-chord">4<sup class="nns-ext">maj7</sup></span></div><div class="nns-bar"><span class="nns-chord">5<sup class="nns-ext">sus4</sup></span></div><div class="nns-bar"><span class="nns-chord">b7</span></div><div class="nns-bar"><span class="nns-chord">#4</span></div><div class="nns-bar"><span class="nns-chord">6<sup class="nns-ext">-7</sup></span></div><div class="nns-bar nns-bar-split"><span class="nns-chord">5</span><span class="nns-chord">1</span></div></div></section>
+<section class="nns-section nns-section-outro"><div class="nns-label">Outro</div><div class="nns-bars"><div class="nns-bar"><span class="nns-chord">1</span></div><div class="nns-bar"><span class="nns-chord">1</span></div></div></section>
+</div></article>"
+`;
+
+exports[`html snapshots > amazing grace with letters 1`] = `
+"<article class="nns-chart" style="--nns-bars:4;--nns-columns:1;--nns-font-size:18px">
+<header class="nns-header">
+<h1 class="nns-title">Amazing Grace</h1>
+<dl class="nns-meta"><div class="nns-meta-item nns-meta-artist"><dt>Artist</dt><dd>Traditional</dd></div><div class="nns-meta-item nns-meta-key"><dt>Key</dt><dd>G</dd></div><div class="nns-meta-item nns-meta-tempo"><dt>Tempo</dt><dd>80</dd></div><div class="nns-meta-item nns-meta-time"><dt>Time</dt><dd>3/4</dd></div></dl>
+</header>
+<div class="nns-body">
+<section class="nns-section nns-section-intro"><div class="nns-label">Intro</div><div class="nns-bars"><div class="nns-bar"><span class="nns-chord">1<span class="nns-letter">G</span></span></div><div class="nns-bar"><span class="nns-chord">1<span class="nns-letter">G</span></span></div><div class="nns-bar"><span class="nns-chord">4<span class="nns-letter">C</span></span></div><div class="nns-bar"><span class="nns-chord">1<span class="nns-letter">G</span></span></div></div></section>
+<section class="nns-section nns-section-verse"><div class="nns-label">Verse 1<span class="nns-repeat">×2</span></div><div class="nns-bars"><div class="nns-bar"><span class="nns-chord">1<span class="nns-letter">G</span></span></div><div class="nns-bar"><span class="nns-chord">1<span class="nns-letter">G</span></span></div><div class="nns-bar"><span class="nns-chord">4<span class="nns-letter">C</span></span></div><div class="nns-bar"><span class="nns-chord">1<span class="nns-letter">G</span></span></div><div class="nns-bar"><span class="nns-chord">1<span class="nns-letter">G</span></span></div><div class="nns-bar"><span class="nns-chord">6<sup class="nns-ext">-</sup><span class="nns-letter">E-</span></span></div><div class="nns-bar"><span class="nns-chord">5<span class="nns-letter">D</span></span></div><div class="nns-bar"><span class="nns-chord">1<span class="nns-letter">G</span></span></div></div></section>
+<section class="nns-section nns-section-chorus"><div class="nns-label">Chorus</div><div class="nns-bars"><div class="nns-bar nns-bar-split"><span class="nns-chord">1<span class="nns-letter">G</span></span><span class="nns-chord">4<span class="nns-letter">C</span></span></div><div class="nns-bar"><span class="nns-chord">1<span class="nns-bass">/3</span><span class="nns-letter">G/B</span></span></div><div class="nns-bar"><span class="nns-chord">4<sup class="nns-ext">maj7</sup><span class="nns-letter">Cmaj7</span></span></div><div class="nns-bar"><span class="nns-chord">5<sup class="nns-ext">sus4</sup><span class="nns-letter">Dsus4</span></span></div><div class="nns-bar"><span class="nns-chord">b7<span class="nns-letter">F</span></span></div><div class="nns-bar"><span class="nns-chord">#4<span class="nns-letter">C#</span></span></div><div class="nns-bar"><span class="nns-chord">6<sup class="nns-ext">-7</sup><span class="nns-letter">E-7</span></span></div><div class="nns-bar nns-bar-split"><span class="nns-chord">5<span class="nns-letter">D</span></span><span class="nns-chord">1<span class="nns-letter">G</span></span></div></div></section>
+<section class="nns-section nns-section-outro"><div class="nns-label">Outro</div><div class="nns-bars"><div class="nns-bar"><span class="nns-chord">1<span class="nns-letter">G</span></span></div><div class="nns-bar"><span class="nns-chord">1<span class="nns-letter">G</span></span></div></div></section>
+</div></article>"
+`;
+
+exports[`html snapshots > broken chart shows inline errors 1`] = `
+"<article class="nns-chart" style="--nns-bars:4;--nns-columns:1;--nns-font-size:18px">
+<header class="nns-header">
+<h1 class="nns-title">Broken</h1>
+</header>
+<ul class="nns-errors"><li class="nns-error">Line 3: Not a chord: &quot;H&quot;</li><li class="nns-error">Line 4: Unknown metadata &quot;Mood&quot;</li><li class="nns-error">Line 5: Unknown chord extension &quot;xyz&quot; in &quot;2xyz&quot;</li></ul>
+<div class="nns-body">
+<section class="nns-section nns-section-verse"><div class="nns-label">Verse</div><div class="nns-bars"><div class="nns-bar"><span class="nns-chord">1</span></div><div class="nns-bar"><span class="nns-chord">4</span></div><div class="nns-bar nns-bar-error" title="Not a chord: &quot;H&quot;">H</div><div class="nns-bar"><span class="nns-chord">1</span></div><div class="nns-bar nns-bar-error" title="Unknown chord extension &quot;xyz&quot; in &quot;2xyz&quot;">2xyz</div><div class="nns-bar"><span class="nns-chord">5</span></div></div></section>
+</div></article>"
+`;
